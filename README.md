@@ -1,7 +1,7 @@
 # pack
 Google Developer Groups Nigeria Waste Management Community Project
 
-<b>Instruction<b/>
+<Strong>Instruction<Strong/>
 <ol>
 <li>Please clone/pull this repo, work on it locally</li>
 <li>When Pushing, you need to create a branch and push to it</li> 
