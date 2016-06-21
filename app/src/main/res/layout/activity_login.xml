@@ -78,7 +78,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="@string/action_sign_in"
+                android:background="#F44336"
+                android:text="@string/action_sign_in_short"
+                android:textColor="#ffffff"
                 android:textStyle="bold" />
 
         </LinearLayout>
