@@ -10,9 +10,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="gdg.ng.pack.LoginActivity">
 
-    <android.support.v4.widget.CircleImageView
+    <!--    <android.support.v4.widget.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pack" />-->
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:src="@drawable/pack" />
 
     <!-- Login progress -->
