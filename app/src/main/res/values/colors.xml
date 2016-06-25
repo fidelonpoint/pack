@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#F44336</color>
-    <color name="colorPrimaryDark">#FFCDD2</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796b</color>
+    <color name="colorAccent">#448aff</color>
+    <color name="myDrawerBackground">#FFFFFF</color>
+    <color name="drawerTextColor">#727272</color>
+    <color name="dividerColor">#B6B6B6</color>
+    <color name="feed_textcolordark">#212121</color>
+
 </resources>

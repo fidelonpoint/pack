@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee">
+    <RelativeLayout
+       android:layout_marginTop="3dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:background="@drawable/card_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:clickable="true"
+            android:id="@+id/thumbImage2"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:src="@drawable/dirt"
+            android:scaleType="fitXY"
+            />
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/feed_textcolordark"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="14sp"
+            android:layout_toRightOf="@+id/thumbImage2"
+            android:id="@+id/myreport_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Na wa for this kind Waste"/>
+        <TextView
+            android:layout_below="@+id/myreport_title"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="13sp"
+            android:layout_toRightOf="@+id/thumbImage2"
+            android:id="@+id/at"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="at"/>
+        <TextView
+
+            android:layout_below="@+id/myreport_title"
+            android:textColor="@color/feed_textcolordark"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="13sp"
+            android:layout_toRightOf="@+id/at"
+            android:id="@+id/myreport_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#13 ikpa road, Uyo"/>
+   <TextView
+       android:gravity="bottom|end"
+       android:layout_alignParentEnd="true"
+       android:layout_marginTop="3dp"
+      android:layout_toRightOf="@+id/thumbImage2"
+       android:textSize="14sp"
+     android:layout_below="@+id/myreport_location"
+       android:textColor="@color/colorPrimary"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/myreport_time"
+       android:text="2days ago"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

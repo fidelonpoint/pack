@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0e0e0"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="gdg.ng.pack.ReportDetials"
+    tools:showIn="@layout/activity_report_detials">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<RelativeLayout
+    android:id="@+id/layer1"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="5dp"
+    android:background="@drawable/card_background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="19sp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/waste_size"
+        android:text="Waste Information "
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <View
+        android:layout_marginTop="3dp"
+        android:background="#B6B6B6"
+        android:layout_below="@+id/waste_size"
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <TextView
+        android:layout_below="@+id/divider1"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/waste_type"
+        android:text="Small size Organic waste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layer2"
+        android:layout_below="@+id/layer1"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/card_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/map_location"
+            android:layout_width="28dp"
+            android:layout_height="26dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_location_on_black_24dp"
+
+            />
+        <TextView
+            android:textSize="17sp"
+            android:layout_marginTop="3.5dp"
+            android:layout_toRightOf="@+id/map_location"
+            android:id="@+id/address_detail"
+            android:text="#13 ikpa road, uyo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+</RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/layer3"
+        android:layout_below="@+id/layer2"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/card_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp"
+            android:layout_marginTop="7dp"
+            android:id="@+id/additional_information"
+            android:text="Comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <View
+            android:layout_marginTop="3dp"
+            android:background="#B6B6B6"
+            android:layout_below="@+id/additional_information"
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"/>
+        <TextView
+            android:layout_below="@+id/divider2"
+            android:textSize="17sp"
+            android:layout_marginTop="7dp"
+            android:id="@+id/title_details"
+            android:text="@string/comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            />
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

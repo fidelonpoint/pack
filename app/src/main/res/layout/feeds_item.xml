@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#e0e0e0"
+
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginLeft="7dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/card_background" >
+
+<!--This Imageview can be changed depending on the library used-->
+        <ImageView
+            android:clickable="true"
+            android:id="@+id/thumbImage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/dirt"
+            android:scaleType="fitXY"
+            />
+
+        <TextView
+            android:text="Na wa for this kind Ministry of health"
+            android:id="@+id/title"
+            android:textSize="15sp"
+            android:textStyle="bold"
+           android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/feed_textcolordark"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/thumbImage"/>
+
+        <TextView
+            android:id="@+id/at"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/title"
+            android:layout_below="@+id/thumbImage"
+            android:paddingLeft="3dp"
+            android:textColor="#727272"
+            android:text="at"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp" />
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/at"
+            android:layout_below="@+id/thumbImage"
+            android:paddingLeft="3dp"
+            android:textColor="@color/feed_textcolordark"
+            android:text="#13 ikpa road"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/address"
+            android:textColor="#727272"
+            android:textSize="10dp"
+
+            android:text="jun 2 at 5.08pm"
+            android:id="@+id/post_time"/>
+        <View
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/post_time"
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#B6B6B6"/>
+        <RelativeLayout
+            android:layout_below="@+id/divider"
+            android:id="@+id/layer2"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:clickable="true"
+                android:layout_marginTop="6dp"
+                android:layout_width="18dp"
+                android:scaleType="fitXY"
+                android:layout_height="18dp"
+                android:id="@+id/support"
+                android:src="@drawable/hand"/>
+            <TextView
+                android:layout_marginLeft="3dp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23 Supports"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:textColor="#727272"
+                android:layout_marginTop="7dp"
+                android:layout_toRightOf="@+id/support"
+                android:id="@+id/support_count"/>
+            <ImageView
+                android:clickable="true"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="6dp"
+                android:layout_width="18dp"
+                android:scaleType="fitXY"
+                android:layout_height="18dp"
+                android:id="@+id/seen"
+                android:src="@drawable/ic_remove_red_eye_black_48dp"/>
+
+
+            <TextView
+                android:layout_marginLeft="3dp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2,000"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="#727272"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/seen"
+                android:id="@+id/seen_count"/>
+            <ImageView
+                android:clickable="true"
+                android:layout_width="18dp"
+                android:scaleType="fitXY"
+                android:layout_height="18dp"
+                android:id="@+id/share"
+                android:layout_marginTop="5dp"
+                android:layout_toLeftOf="@+id/share_text"
+                android:src="@drawable/ic_menu_share"
+
+                 />
+            <TextView
+                android:layout_marginLeft="3dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Share"
+                android:layout_alignParentEnd="true"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="#727272"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/share_text" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</FrameLayout>
