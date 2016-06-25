@@ -14,4 +14,102 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <!-- Layout -->
+    <item name="newdrawer" type="bool">true</item>
+    <string name="title_activity_home">Home</string>
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="tools">
+        <item>tool 1</item>
+        <item>tool 1</item>
+        <item>tool 1</item>
+        <item>tool 1</item>
+        <item>tool 1</item>
+
+    </string-array>
+    <string name="title_activity_report_detials">Details</string>
+    <string name="comment">Una wan make this waste kill us. abeg may govt..come ooo.
+    Una wan make this waste kill us. abeg may govt..come ooo
+    Una wan make this waste kill us. abeg may govt..come ooo
+    Una wan make this waste kill us. abeg may govt..come ooo</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_selected_state">Select State</string>
+    <string-array name="pref_state_titles">
+        <item>Akwa Ibom</item>
+        <item>Abia</item>
+        <item>Bayelsa</item>
+        <item>Benin</item>
+        <item>Edo</item>
+        <item>Rivers</item>
+        <item>Akwa Ibom</item>
+        <item>Abuja</item>
+        <item>Abia</item>
+        <item>Bayelsa</item>
+        <item>Benin</item>
+        <item>Edo</item>
+        <item>Rivers</item>
+        <item>Akwa Ibom</item>
+        <item>Abia</item>
+        <item>Bayelsa</item>
+        <item>Benin</item>
+        <item>Edo</item>
+        <item>Rivers</item>
+    </string-array>
+    <string-array name="pref_state_values">
+        <item>Akwa Ibom</item>
+        <item>Abia</item>
+        <item>Bayelsa</item>
+        <item>Benin</item>
+        <item>Edo</item>
+        <item>Rivers</item>
+        <item>Abuja</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_manage_caterories">Manage Categories</string>
+    <string name="title_activity_my_report">My Reports</string>
 </resources>
