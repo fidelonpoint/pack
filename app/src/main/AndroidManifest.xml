@@ -39,6 +39,15 @@
                 android:value="gdg.ng.pack.Home" />
         </activity>
         <activity
+            android:name=".ProfileActivity"
+            android:label="@string/profile"
+            android:parentActivityName=".Home" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="gdg.ng.pack.Home" />
+        />
+        <activity
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings"
             android:parentActivityName=".Home">

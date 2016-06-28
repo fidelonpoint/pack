@@ -123,17 +123,15 @@ public class Home extends AppCompatActivity
 
         if (id == R.id.my_report) {
             startActivity(new Intent(Home.this, MyReport.class));
-        } /*else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.home) {
+            startActivity(new Intent(this, Home.class));
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.profile) {
+            startActivity(new Intent(this, ProfileActivity.class));
 
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
-        }*/
+        } else if (id == R.id.wastelocation) {
+            // Intent for waste Location goes here
+        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
