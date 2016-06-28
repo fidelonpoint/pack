@@ -7,13 +7,14 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="gdg.ng.pack.MyReport"
     tools:showIn="@layout/activity_my_report">
+
     <GridView
 
-        android:layout_marginTop="10dp"
         android:id="@+id/gridView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:numColumns="1"
-        >
+        android:layout_marginTop="10dp"
+        android:numColumns="1">
+
     </GridView>
 </RelativeLayout>
