@@ -114,6 +114,10 @@ public class Home extends AppCompatActivity
 
         return super.onOptionsItemSelected(item);
     }
+    public void signout(MenuItem item) {
+        Intent intent = new Intent(Home.this,SignInActivity.class);
+        startActivity(intent);
+    }
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
