@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gradle/
+.idea/libraries/
+.idea/workspace.xml
+gradle/
+gradlew
+gradlew.bat
+local.properties
+pack2.iml
+app/google-services.json
