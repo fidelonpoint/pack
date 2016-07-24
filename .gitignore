@@ -8,3 +8,7 @@ gradlew.bat
 local.properties
 pack2.iml
 app/google-services.json
+fabric.properties
+/build
+.idea/vcs.xml
+build/intermediates/
