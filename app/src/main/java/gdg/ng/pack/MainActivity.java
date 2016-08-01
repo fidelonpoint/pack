@@ -17,13 +17,15 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener {
-    public static final String ANONYMOUS = "anonymous";
     private static final String TAG = "MainActivity";
+
     private FirebaseAuth mFirebaseAuth;
     private FirebaseUser mFirebaseUser;
     private String mUsername;
     private String mPhotoUrl;
     private GoogleApiClient mGoogleApiClient;
+    public static final String ANONYMOUS = "anonymous";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +44,6 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
                 .build();
 
     }
-
     @Override
     public void onStart() {
         super.onStart();
@@ -61,7 +62,6 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 
 
     }
-
     @Override
     public void onPause() {
         super.onPause();

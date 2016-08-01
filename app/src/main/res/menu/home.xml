@@ -8,8 +8,14 @@
         app:showAsAction="never" />
     <item
         android:id="@+id/action_settings"
-        android:orderInCategory="100"
+        android:orderInCategory="101"
         android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:onClick="signout"
+        android:id="@+id/sign_out"
+        android:orderInCategory="102"
+        android:title="@string/sign_out"
         app:showAsAction="never" />
 
     <item
