@@ -9,10 +9,10 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="gdg.ng.pack.Manage_caterories"
     tools:showIn="@layout/activity_manage_caterories">
-<ListView
-    android:background="@drawable/card_background"
-    android:id="@+id/list_state"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    ></ListView>
+
+    <ListView
+        android:id="@+id/list_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card_background" />
 </RelativeLayout>
