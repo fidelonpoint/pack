@@ -118,4 +118,12 @@
     <string name="sign_out">Sign Out</string>
     <string name="title_activity_sign_in">Pack</string>
     <string name="prompt_username">Username</string>
+    <string name="sign_in">Sign In</string>
+    <string name="password">Password</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? SIGN UP</string>
+    <string name="email_address">Email address</string>
+
+    <string name="facebook_app_id">1231911906819665</string>
+    <string name="confirm_password">Confirm password</string>
+
 </resources>

@@ -281,7 +281,7 @@ public class SignInActivity extends AppCompatActivity implements
             }
 
         } else if (requestCode == 140) {
-            // TODO: 7/23/2016 Disambiguate the requestCode
+//             TODO: 7/23/2016 Disambiguate the requestCode
             twitterLoginButton.onActivityResult(requestCode, resultCode, data);
         } else {
             mCallbackManager.onActivityResult(requestCode, resultCode, data);
